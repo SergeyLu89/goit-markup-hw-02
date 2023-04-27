@@ -13,6 +13,7 @@ body {
   line-height: var(--main-line-hight);
   letter-spacing: var(--main-letter-spacing);
   color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -43,11 +44,11 @@ button {
 }
 
 .hero-button:hover,
-.hero-button:hover {
+.hero-button:focus {
   background-color: #404bbf;
 }
 .portfolio-button {
-  background-color: #e7e9fc;
+  background-color: #f4f4fd;
   color: #4d5ae5;
 }
 .portfolio-button:hover,
@@ -59,7 +60,7 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -67,11 +68,12 @@ button {
 .logo-studio-light-bg {
   color: #2e2f42;
 }
-
+.page-adress {
+  font-style: normal;
+}
 .menu-item,
 .adress-item {
   font-family: var(--main-font);
-  font-style: normal;
   font-size: var(--main-font-size);
   line-height: var(--main-line-hight);
   letter-spacing: var(--main-letter-spacing);
@@ -90,12 +92,15 @@ button {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-.tertiary-title {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .secondary-title {
@@ -104,6 +109,8 @@ button {
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
+  letter-spacing: var(--main-letter-spacing);
 }
 .logo-studio-dark-bg {
   color: #f4f4fd;
@@ -123,4 +130,10 @@ button {
 .footer,
 .hero {
   background-color: #2e2f42;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
 }
