@@ -1,9 +1,17 @@
+:root {
+  --accent-color: #404bbf;
+  --main-font: 'Roboto', sans-serif;
+  --main-font-size: 16px;
+  --main-line-hight: 1.5;
+  --main-letter-spacing: 0.02em;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
   color: #434455;
 }
 .list {
@@ -15,15 +23,15 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 button {
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
   display: flex;
   align-items: center;
   text-align: center;
@@ -62,11 +70,11 @@ button {
 
 .menu-item,
 .adress-item {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
 }
 .menu-item {
   font-weight: 500;
@@ -104,14 +112,14 @@ button {
   color: #f4f4fd;
 }
 .main-txt-style {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
   color: #434455;
 }
-.hero {
+*/ .hero {
   background-color: #2e2f42;
 }
 .footer {
